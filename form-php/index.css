@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+form {
+    font: 10pt Arial;
+    background-color: #eee;
+    padding: 10px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+}
+
+input{
+    width: auto;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input[name=reset]{
+    width: auto;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input[name=search] {
+    width: auto;
+    background-color: #09f;
+    color: white;
+    border: none;
+}
+
+input[name=search]:hover {
+    background-color: #07d;
+}
+
+table {
+    font: 10pt Arial;
+    background-color: #eee;
+    padding: 10px;
+    display: inline-block;
+}
+
+th {
+    color: #09f;
+}
+
+a {
+    width: auto;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #09f;
+    color: white;
+}
